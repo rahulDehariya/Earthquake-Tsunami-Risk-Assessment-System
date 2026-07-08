@@ -1,0 +1,16 @@
+Business Understanding:-
+Business Problem
+        ↓
+Data Understanding
+        ↓
+EDA
+        ↓
+Feature Engineering
+        ↓
+Preprocessing
+        ↓
+Model Building
+        ↓
+Evaluation
+        ↓
+Deployment
