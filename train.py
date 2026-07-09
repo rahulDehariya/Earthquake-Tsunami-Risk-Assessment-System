@@ -2,7 +2,10 @@ from src.config import RAW_DATA_PATH, PROCESSED_DATA_DIR
 from src.data_loader import load_data
 from src.data_cleaning import clean_data
 from src.feature_engineering import build_features
-from src.eda import dataset_overview,target_analysis
+from src.eda import (
+    dataset_overview,
+    target_analysis,
+)
 
 
 def main():
