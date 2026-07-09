@@ -3,6 +3,7 @@ from src.data_loader import load_data
 from src.data_cleaning import clean_data
 from src.feature_engineering import build_features
 from src.eda import dataset_overview, target_analysis
+from src.visualization import plot_missing_values
 
 
 def main():
@@ -15,6 +16,8 @@ def main():
     df = build_features(df)
     dataset_overview(df)
     target_analysis(df)
+    # plot_target_distribution(df)
+    plot_missing_values(df)
 
 
 

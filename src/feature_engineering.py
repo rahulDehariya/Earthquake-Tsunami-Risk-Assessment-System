@@ -1,6 +1,6 @@
 import pandas as pd
 
-from src.config import UNUSED_COLUMNS
+from src.config import UNUSED_COLUMNS,TARGET_COLUMN
 
 def _create_target(df:pd.DataFrame) -> pd.DataFrame:
     """
@@ -9,7 +9,7 @@ def _create_target(df:pd.DataFrame) -> pd.DataFrame:
 
     df = df.copy()
 
-    df['Tsunami'] =  df['Tsu'].notna().astype(int)
+    df[TARGET_COLUMN] =  df['Tsu'].notna().astype(int)
 
     return df
 

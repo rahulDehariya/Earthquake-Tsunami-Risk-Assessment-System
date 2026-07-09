@@ -21,3 +21,5 @@ UNUSED_COLUMNS = [
     "Tsu",
     "Vol",
 ]
+
+TARGET_COLUMN = "Tsunami"
