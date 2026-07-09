@@ -1,3 +1,5 @@
+import pandas as pd
+
 def target_analysis(df: pd.DataFrame) -> None:
     """
     Display target variable distribution.
@@ -11,9 +13,10 @@ def target_analysis(df: pd.DataFrame) -> None:
 
     print("\nPercentage")
 
-    print(
-        round(
-            df["Tsunami"].value_counts(normalize=True) * 100,
-            2,
-        )
+    percentage = (
+        df["Tsunami"]
+        .value_counts(normalize=True)
+        .mul(100)
+        .round(2)
     )
+    print(percentage)

@@ -2,10 +2,7 @@ from src.config import RAW_DATA_PATH, PROCESSED_DATA_DIR
 from src.data_loader import load_data
 from src.data_cleaning import clean_data
 from src.feature_engineering import build_features
-from src.eda import (
-    dataset_overview,
-    target_analysis,
-)
+from src.eda import dataset_overview, target_analysis
 
 
 def main():
@@ -16,15 +13,8 @@ def main():
     
     # Feature engimeering
     df = build_features(df)
-    PROCESSED_DATA_DIR.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    df.to_csv(
-        PROCESSED_DATA_DIR / "earthquake_clean.csv",
-        index=False,
-    )
+    dataset_overview(df)
+    target_analysis(df)
 
 
 

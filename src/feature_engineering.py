@@ -9,7 +9,7 @@ def _create_target(df:pd.DataFrame) -> pd.DataFrame:
 
     df = df.copy()
 
-    df['tsunami'] =  df['Tsu'].notna().astype(int)
+    df['Tsunami'] =  df['Tsu'].notna().astype(int)
 
     return df
 
