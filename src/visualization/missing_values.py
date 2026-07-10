@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-def plot_missing_values(df: pd.DataFrame) -> None:
+def plot_missing_value(df: pd.DataFrame) -> None:
     """
     Plot missing values for each feature.
     """
