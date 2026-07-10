@@ -23,3 +23,11 @@ UNUSED_COLUMNS = [
 ]
 
 TARGET_COLUMN = "Tsunami"
+
+NUMERICAL_FEATURES = [
+    "Mag",
+    "Focal Depth (km)",
+    "Latitude",
+    "Longitude",
+    "Year",
+]

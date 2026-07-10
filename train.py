@@ -6,7 +6,9 @@ from src.eda import dataset_overview, target_analysis
 from src.visualization import (
     plot_missing_value,
     plot_numerical_distribution,
-    plot_boxplot
+    plot_boxplot,
+    plot_category_distribution,
+    plot_correlation_matrix
 )
 
 
@@ -23,7 +25,9 @@ def main():
     # plot_target_distribution(df)
     #plot_missing_value(df)
     #plot_numerical_distribution(df,"Mag")
-    plot_boxplot(df, "Mag")
+    #plot_boxplot(df, "Mag")
+    #plot_category_distribution(df, "Mag")
+    plot_correlation_matrix(df)
 
 
 
