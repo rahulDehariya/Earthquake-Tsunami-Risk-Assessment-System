@@ -25,9 +25,31 @@ UNUSED_COLUMNS = [
 TARGET_COLUMN = "Tsunami"
 
 NUMERICAL_FEATURES = [
-    "Mag",
-    "Focal Depth (km)",
+    "Year",
+    "Mo",
+    "Dy",
+    "Hr",
+    "Mn",
+    "Sec",
     "Latitude",
     "Longitude",
+    "Focal Depth (km)",
+    "Mag",
+]
+CATEGORICAL_FEATURES = [
+    "Location Name",
+]
+
+FEATURE_COLUMNS = [
     "Year",
+    "Mo",
+    "Dy",
+    "Hr",
+    "Mn",
+    "Sec",
+    "Location Name",
+    "Latitude",
+    "Longitude",
+    "Focal Depth (km)",
+    "Mag",
 ]

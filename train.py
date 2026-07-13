@@ -27,7 +27,8 @@ def main():
     #plot_numerical_distribution(df,"Mag")
     #plot_boxplot(df, "Mag")
     #plot_category_distribution(df, "Mag")
-    plot_correlation_matrix(df)
+    #plot_correlation_matrix(df)
+    print(df.columns.tolist())
 
 
 

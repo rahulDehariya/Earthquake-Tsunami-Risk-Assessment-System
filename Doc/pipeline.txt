@@ -1,0 +1,31 @@
+Raw Data
+      │
+      ▼
+Data Loader
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+EDA & Visualization
+      │
+      ▼
+Preprocessing Pipeline ⭐
+      │
+      ▼
+Train/Test Split
+      │
+      ▼
+Random Forest
+      │
+      ▼
+Evaluation
+      │
+      ▼
+Hyperparameter Tuning
+      │
+      ▼
+Model Export
