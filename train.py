@@ -90,6 +90,16 @@ def main():
         y_pred=y_pred,
         y_prob=y_prob
     )
+    print(matrics)
+
+    """
+    {'accuracy': 0.8137621540762902, 'Precision': 0.8293650793650794, 'recall': 0.5036144578313253, 'f1_score': 0.6266866566716641, 'roc_auc': 0.7284883568983092}
+    Accuracy  : 81.38%
+    Precision : 82.94%
+    Recall    : 50.36%
+    F1 Score  : 62.67%
+    ROC AUC   : 72.85%
+    """
 
 
 
